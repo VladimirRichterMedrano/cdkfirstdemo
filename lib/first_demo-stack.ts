@@ -1,4 +1,4 @@
-import * aaas cdk from '@aws-cdk/core';
+import * as cdk from '@aws-cdk/core';
 import ec2 = require('@aws-cdk/aws-ec2');
 import { SubnetType, AmazonLinuxImage, NatInstanceImage, SecurityGroup, NatProvider } from '@aws-cdk/aws-ec2';
 import { Tag } from '@aws-cdk/core';
